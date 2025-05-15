@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/makeup</item>
+        <item name="postSplashScreenTheme">@style/Theme.ElsanoBooking</item>
+    </style>
 
-    <style name="Theme.DoctorAppointmentUI" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.ElsanoBooking" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

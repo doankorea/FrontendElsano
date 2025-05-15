@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DoctorAppointmentUI"
+rootProject.name = "ElsanoBooking"
 include(":app")
  
